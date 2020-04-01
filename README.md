@@ -1,21 +1,23 @@
 #  Interactive Gibson Environment
-Large Scale Virtualized Interactive Environment for Learning Robot Manipulation and Navigation
+**Large Scale Virtualized Interactive Environments for Robot Learning**
 
-Interactive Gibson is a fast simulator and a dataset for indoor navigation and manipulation. It was first released in June 2019. It allows for complicated interactions between the agent and the environment, such as picking up and placing objects, or opening doors and cabinets. This environment opens up new venues for jointly training base and arm policies, allowing researchers to explore the synergy between manipulation and navigation.
+Interactive Gibson is a simulation environment providing fast visual rendering and physics simulation (based on Bullet). It is packed with a dataset with hundreds of large 3D environments reconstructed from real homes and offices, and interactive objects that can be pushed and actuated. Interactive Gibson allows to train and evaluate robotic agents that use RGB images and/or other visual sensors to solve indoor (interactive) navigation and manipulation tasks such as opening doors, picking up and placing objects, or searching in cabinets. 
 
 
-#### Paper
-If you use Interactive Gibson Simulator or Interactive Gibson assets, please consider citing the following paper:
+#### Publication
+If you use the Interactive Gibson Environment or its assets and models, consider citing the following publication:
 
 ```
-@techreport{xiagibson2019,
-           title = {Gibson Env V2: Embodied Simulation Environments for Interactive Navigation},
-           author = {Xia, Fei and Li, Chengshu and Chen, Kevin and Shen, William B and Mart{\'i}n-Mart{\'i}n, Roberto and Hirose, Noriaki and Zamir, Amir R and Fei-Fei, Li and Savarese, Silvio},
-           group = {Stanford Vision and Learning Group},
-           year = {2019},
-           institution = {Stanford University},
-           month = {6},
-}
+@article{xia2020interactive,
+           title={Interactive Gibson Benchmark: A Benchmark for Interactive Navigation in Cluttered Environments},
+           author={Xia, Fei and Shen, William B and Li, Chengshu and Kasimbeg, Priya and Tchapmi, Micael Edmond and Toshev, Alexander and Mart{\'\i}n-Mart{\'\i}n, Roberto and Savarese, Silvio},
+           journal={IEEE Robotics and Automation Letters},
+           volume={5},
+           number={2},
+           pages={713--720},
+           year={2020},
+           publisher={IEEE}
+         }
 ```
 
 
@@ -27,8 +29,9 @@ Release
 
 Documentation
 =================
-- [Interactive Gibson Environment Documentation](http://svl.stanford.edu/gibson2/docs/).
+- [Interactive Gibson Environment Documentation](http://svl.stanford.edu/interactivegibsonenv/docs/).
 
 Dataset Download
 =================
-- [Download Gibson V2 dataset](https://forms.gle/q5Ygkw3ijxD5WC5U8).
+- [Download Interactive Gibson Dataset](https://forms.gle/q5Ygkw3ijxD5WC5U8)
+- [Download Fully Interactive House](https://storage.googleapis.com/gibson_scenes/Rs_interactive.tar.gz)
